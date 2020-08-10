@@ -19,8 +19,8 @@
 class Anagram
    attr_accessor :
 
-   def initialize
-
+   def initialize(word)
+     @word = word
    end
 
    def match(array)
